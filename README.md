@@ -6,8 +6,8 @@ A CNNs overall objective is to extract high level features (such as edges) from 
 
 ![CNN Pipeline](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1512486717/Typical_cnn_kecdep.png)
 
-### Pre-Process (Feature Maps)
-1. Before the feature extraction phase the data first has to be pre-processed in order to reduce computation time
+## Pre-Process (Feature Maps)
+1. During the feature extraction phase the input image needs be rescaled in order to reduce computation time
   - This is key since an input image may have a high resolution and preforming a convolutional matrix operation on an 8k image can be costly
     - for this project the dataset uses only low resolution input images but same logic still applies
 2. The input image has a convolution layer (kernal filter) applied to it in order to reduce image resolution and only keep key features
