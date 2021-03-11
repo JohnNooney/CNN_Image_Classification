@@ -14,7 +14,7 @@ A CNNs overall objective is to extract high level features (such as edges) from 
   - our kernel filter iterates through each pixel on the input image and performs a matrix multiplication
   ![Matrix Multiplication Example](https://miro.medium.com/max/500/1*GcI7G-JLAQiEoCON7xFbhg.gif)
   - during this process the high level features our being extracted into what is called 'Feature Maps'
-4. In the case of RGB images, each color goes through the kernal filter and the end result gets summed together
+4. In the case of RGB images, each color goes through the kernal filter, creating its own featur map, and the end result gets summed together
 
 ## Pooling (Subsampling)
 The poolings main goal is to reduce computational power through **dimentionality reduction**, **noise reduction**, and **dominant features** extraction. There are 2 main types of pooling; max pooling and average pooling. Max pooling was chosen here since it has overall better performance
