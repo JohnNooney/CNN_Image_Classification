@@ -1,6 +1,9 @@
 # CNN_Image_Classification
 This program uses a Convolutional Neural Net to classify images from a data set of ...
 
+## Assets
+ Keras was used to retrieve the dataset without having to download it locally for training
+
 # Convolutional Neural Network Explained
 A CNNs overall objective is to extract high level features (such as edges) from an input image and based on it's training model classify this image correctly.
 
