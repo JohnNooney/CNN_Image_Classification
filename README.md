@@ -23,7 +23,7 @@ The poolings main goal is to reduce computational power through **dimentionality
 
 In this layer the highest pixel value in a designated region (deteremined by kernel size) of the feature map is extracted. This subsample is then used to hold the key features of the image.
 
-![Pooling Example](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1512486717/max-pooling_tkk5n2.png)
+![Pooling Example](https://miro.medium.com/max/500/1*KQIEqhxzICU7thjaQBfPBQ.png)
  
 ## Classification (Fully-Connected)
 This layer is when all the key features are flattened into a single dimensional vector to be processed by the Multi-layer Percepton. Our data is being fed to a Neural Network that, over many epochs, will be able to distinguish between dominating features and low-level features present in the images and classify them accordingly.
