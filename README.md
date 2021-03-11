@@ -12,7 +12,7 @@ A CNNs overall objective is to extract high level features (such as edges) from 
     - for this project the dataset uses only low resolution input images but same logic still applies
 2. The input image has a convolution layer (kernal filter) applied to it in order to reduce image resolution and only keep key features
   - our kernel filter iterates through each pixel on the input image and performs a matrix multiplication
-  ![Matrix Multiplication](https://miro.medium.com/max/500/1*GcI7G-JLAQiEoCON7xFbhg.gif)
+  ![Matrix Multiplication Example](https://miro.medium.com/max/500/1*GcI7G-JLAQiEoCON7xFbhg.gif)
   - during this process the high level features our being extracted into is called 'Feature Maps'
 4. In the case of RGB images, each color goes through the kernal filter and the end result gets summed together
 
@@ -22,6 +22,8 @@ The poolings main goal is to reduce computational power through **dimentionality
  - Average Pooling: returns the average from all the values in the portion of the image covered
 
 In this layer the highest pixel value in a designated region (deteremined by kernel size) of the feature map is extracted. This subsample is then used to hold the key features of the image.
+
+![Pooling Example](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1512486717/max-pooling_tkk5n2.png)
  
 ## Classification (Fully-Connected)
 This layer is when all the key features are flattened into a single dimensional vector to be processed by the Multi-layer Percepton. Our data is being fed to a Neural Network that, over many epochs, will be able to distinguish between dominating features and low-level features present in the images and classify them accordingly.
