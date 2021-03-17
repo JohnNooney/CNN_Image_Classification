@@ -43,6 +43,11 @@ LSTM Architecture            |  Standard Architecture
 
 - The key to the LSTM is the cell state. This is the straight line that runs through the entire diagram and what is responsible for allowing data to persist through the entire training process. Only certain data is allowed into the cell state and this is regulated by sigmoid neural net layers along the line. 
 
+## Input Sequence
+Since we are dealing with images, this is an important step to consider since we won't be applying any convolutional filters. 
+
+In order to recognize a number we will treat each row of pixels in the image as one timestep. This way the model is able to analyze one row at a time while having memory of the past rows aswell. 
+
 # Sources
 https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53 
 
