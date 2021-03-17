@@ -41,8 +41,11 @@ LSTM Architecture            |  Standard Architecture
 :-------------------------:|:-------------------------:
 ![LSTM RNN](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)  |  ![Standard RNN](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-SimpleRNN.png)
 
+- The key to the LSTM is the cell state. This is the straight line that runs through the entire diagram and what is responsible for allowing data to persist through the entire training process. Only certain data is allowed into the cell state and this is regulated by sigmoid neural net gates along the line. 
 
 # Sources
 https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53 
 
 https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python 
+
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/
