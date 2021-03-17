@@ -1,4 +1,4 @@
-# CNN_Image_Classification
+# CNN vs RNN Image Classification
 This program uses a Convolutional Neural Net to classify images from a data set of ...
 
 ## Assets
@@ -33,6 +33,13 @@ This layer is when all the key features are flattened into a single dimensional 
 
 - The classification technique used here is Softmax classifier
 
+# Recurrent Neural Network (LSTM) Explained
+A RNN's main distinctive feature is the ability to persist memory through each testing cycle, otherwise known as a timestep. This gives the network the ability to connect previous information to the current task. 
+ - The specific architecture used here is the Long Short Term Memory. This architecture solves the problem of long-term dependency: being able to remember information for long periods of time.
+
+LSTM Architecture            |  Standard Architecture
+:-------------------------:|:-------------------------:
+![LSTM RNN](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)  |  ![Standard RNN](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-SimpleRNN.png)
 
 
 # Sources
