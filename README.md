@@ -19,10 +19,10 @@ This program uses a Convolutional Neural Net to classify images from a data set 
  Upon launching the application with ``` python app.py ``` you will be met with a window that can allows you to draw in the black box
  
  - use the left mouse button to draw
- - 'C' to clear box
- - 'P' to predict 
+ - *C* to clear box
+ - *P* to predict 
   - in the console you will see the output from each models prediction
- - 'Q' to quit  
+ - *Q* to quit  
 
 # Convolutional Neural Network Explained
 A CNNs overall objective is to extract high level features (such as edges) from an input image and based on it's training model classify this image correctly.
