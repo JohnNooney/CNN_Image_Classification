@@ -21,7 +21,7 @@ This program uses a Convolutional Neural Net to classify images from a data set 
  - use the **left mouse** button to draw
  - 'C' to clear box
  - 'P' to predict 
-    - in the console you will see the output from each models prediction
+   - in the console you will see the output from each models prediction
  - 'Q' to quit  
 
 # Convolutional Neural Network Explained
