@@ -74,3 +74,5 @@ https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-net
 https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python 
 
 https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+https://github.com/hackstock/deep-ocr
