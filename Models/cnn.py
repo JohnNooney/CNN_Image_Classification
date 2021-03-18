@@ -169,7 +169,7 @@ plt.show()
 """## Save Model"""
 
 # Save the entire model as a SavedModel.
-number_model.save('saved_model/cnn_number_model.h5py')
+number_model.save('saved_model/cnn_number_model.tfl')
 
 """# Predict Labels"""
 
