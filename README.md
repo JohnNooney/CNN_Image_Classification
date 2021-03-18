@@ -1,8 +1,28 @@
 # CNN vs RNN Image Classification
 This program uses a Convolutional Neural Net to classify images from a data set of ...
 
-## Assets
- Keras was used to retrieve the dataset without having to download it locally for training
+## Setup
+ Python 3.5-3.8 is required for compatibility with all required modules
+ 
+ ```
+ # Clone this reposititory
+ git clone https://github.com/JohnNooney/CNN_vs_RNN_Image_Classification
+ 
+ # Go into repository
+ cd ../cnn_vs_rnn_image_classification
+ 
+ # Install required modules
+ pip install -r requirements.txt
+ ```
+ 
+ ## Usage
+ Upon launching the application with ``` python app.py ``` you will be met with a window that can allows you to draw in the black box
+ 
+ - use the left mouse button to draw
+ - 'C' to clear box
+ - 'P' to predict 
+  - in the console you will see the output from each models prediction
+ - 'Q' to quit  
 
 # Convolutional Neural Network Explained
 A CNNs overall objective is to extract high level features (such as edges) from an input image and based on it's training model classify this image correctly.
