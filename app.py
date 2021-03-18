@@ -37,11 +37,18 @@ def on_mouse_events(event,x,y,flags,params):
 cv2.namedWindow("Test Canvas")
 cv2.setMouseCallback("Test Canvas", on_mouse_events)
 
+counter = 0
+
 
 while(True):
     cv2.imshow("Test Canvas", canvas)
     key = cv2.waitKey(1) & 0xFF
-    print("Press <q> to exit, <p> to predict, <c> to clear, <mouse left> to draw")
+
+    if counter == 0:
+        print("Press <q> to exit, <p> to predict, <c> to clear, <mouse left> to draw")
+        counter = 1
+
+
 
     if key == ord('q'):
         break
