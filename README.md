@@ -1,5 +1,5 @@
 # CNN vs RNN Image Classification
-This program uses a Convolutional Neural Net and a Recurrent Neural Net o classify images from the MNIST dataset of handwritten numbers. CNNs are best suited for computer vision applications where as RNNs can be used but aren't widely as popular of a choice. The purpose of this project is to demonstrate the advantages a CNN model may have over a RNN.
+This program uses a Convolutional Neural Net and a Recurrent Neural Net o classify images from the MNIST dataset of handwritten numbers. CNNs are best suited for computer vision applications where as RNNs are generally used for sequential data analysis. The purpose of this project is to demonstrate the advantages a CNN model may have over a RNN in image recognition.
 
 ## Setup
  Python 3.5-3.8 is required for compatibility with all required modules
